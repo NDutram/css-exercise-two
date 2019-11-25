@@ -5,7 +5,7 @@
 body {
   background-color: white;
   color: #000000;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 a {
@@ -22,27 +22,44 @@ a:active {
   color:	#FF00FF; } /* selected */
 
 h1 {
-  font-size: 2em; /* 32px */
+  font-size: 4em;
   line-height: normal;
   text-align: center;
+  font-weight: bold;
+  margin: auto;
+  width: 100%;
 }
 
 h3 {
-  font-size: 100%;
+  font-size: 2em;
   line-height: 1em;
   font-style: italic;
+  margin: auto;
+  width: 85%;
 }
 
 p {
-  font-size: 100%; /* 16px */
+  font-size: 1.5em;
   line-height: 1.25em;
+  margin: auto;
+  width: 85%;
 }
+
+.author {
+  font-size: 1.1em;
+  text-align: center;
+  }
+
 
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
+}
+
+figcaption {
+  text-align: center;
 }
 
 .logo {
@@ -57,6 +74,9 @@ nav {
 
 .medium-pic {
   background: #fff url=(images/instagram-pic.jpg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
 }
 
@@ -84,8 +104,8 @@ article {
 }
 
 .container {
-  margin: 0 auto;
-  width: 50%;
+  margin: auto;
+  width: 75%;
 }
 
 </style>
