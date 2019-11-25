@@ -1,6 +1,41 @@
+<!DOCTYPE html>
+<html>
+<style>
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: white;
+  color: #000000;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #0000FF; } /* unvisited */
+a:visited {
+  color: #87CEEB; } /* visited */
+a:hover {
+  color: #7B68EE; } /* mouse over */
+a:active {
+  color:	#FF00FF; } /* selected */
+
+h1 {
+  font-size: 2em; /* 32px */
+  line-height: normal;
+  text-align: center;
+}
+
+h3 {
+  font-size: 100%;
+  line-height: 1em;
+  font-style: italic;
+}
+
+p {
+  font-size: 100%; /* 16px */
+  line-height: 1.25em;
 }
 
 nav {
@@ -11,6 +46,7 @@ nav {
 }
 
 .logo {
+  background: #fff url=(images/bloc-logo.png);
   margin: 20px;
   width: 100px;
 }
@@ -20,6 +56,7 @@ nav {
 }
 
 .medium-pic {
+  background: #fff url=(images/instagram-pic.jpg);
   width: 70%;
 }
 
@@ -50,3 +87,6 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+</style>
+</html>
